@@ -56,7 +56,7 @@ namespace School.System
             app.Run();
         }
 
-        //dependencies of repository and services injected
+        //dependencies of repository and services injected .. IOC Container create gareko
         private static void DependenciesConfig (IServiceCollection services)
         {
             #region Repositories
